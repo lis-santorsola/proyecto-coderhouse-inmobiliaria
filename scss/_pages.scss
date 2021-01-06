@@ -1,0 +1,12 @@
+@each $section in alquiler, venta, emprendimientos {
+    .#{$section} {
+        background-image: url(/images/#{$section}.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        text-align: left;
+        padding: 10rem 5rem 10rem 5rem;
+        margin: 0;
+    }
+}

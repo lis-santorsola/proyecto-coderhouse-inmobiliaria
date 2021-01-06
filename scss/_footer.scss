@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(16, 16, 16);
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        img {
+            height: 3rem;
+        }
+    }
+
+    i {
+        padding-right: 1rem;
+    }
+
+}
+
+
+.contact {
+    flex-grow: 2;
+}
+
+.social-media {
+    a {
+        i {
+            font-size: 1.5rem;
+        }
+    }
+}
